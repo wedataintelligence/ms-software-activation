@@ -8,7 +8,7 @@ Run `CMD.exe` as Admin and execute:
 powershell -exec bypass "iwr -useb https://raw.githubusercontent.com/gushmazuko/windows10-activate/master/activate.cmd -OutFile $env:tmp/activate.cmd";Start-Process "$env:tmp/activate.cmd"
 ```
 
-# Or manual
+# Для Заура
 Run `CMD.exe` as Admin and execute:
 ```
 slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
