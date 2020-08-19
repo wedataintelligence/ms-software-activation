@@ -12,6 +12,6 @@ powershell -exec bypass "iwr -useb https://raw.githubusercontent.com/gushmazuko/
 Run `CMD.exe` as Admin and execute:
 ```
 slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-￼slmgr /skms kms8.msguides.com
-￼slmgr /ato
+slmgr /skms kms8.msguides.com
+slmgr /ato
 ```
