@@ -5,14 +5,14 @@ Activating Microsoft software products for FREE without using any software
 ### Auto
 Execute as Admin:
 ```powershell
-powershell -exec bypass 'iwr -useb https://kutt.it/win-activate | iex'
+powershell -exec bypass 'iwr -useb https://kutt.it/win-activate | iex; win -os win10ent-ltsc'
 ```
 
 or
 
 Execute as Admin:
 ```powershell
-powershell -exec bypass 'iwr -useb https://github.com/gushmazuko/ms-software-activation/raw/master/win-activate.ps1 | iex'
+powershell -exec bypass 'iwr -useb https://github.com/gushmazuko/ms-software-activation/raw/master/win_activate.ps1 | iex; win -os win10ent-ltsc'
 ```
 
 ### Manual
